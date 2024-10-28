@@ -91,6 +91,10 @@
   }
 }
 
+html {
+  font-size: 150%; /* Increase the base font size by 2x */
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -99,7 +103,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #cbc7b7;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
